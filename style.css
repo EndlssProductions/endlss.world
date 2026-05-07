@@ -1,0 +1,86 @@
+* {
+.merch-card p,
+.event-card p {
+  color: #aaa;
+  margin-bottom: 20px;
+}
+
+.dj-card a {
+  color: white;
+  text-decoration: none;
+}
+
+.booking-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 600px;
+}
+
+.booking-form input,
+.booking-form textarea {
+  background: #111;
+  border: 1px solid #333;
+  padding: 16px;
+  color: white;
+}
+
+.booking-form textarea {
+  min-height: 140px;
+}
+
+.booking-form button {
+  background: white;
+  color: black;
+  border: none;
+  padding: 16px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.booking-form button:hover {
+  background: #999;
+}
+
+footer {
+  padding: 40px;
+  text-align: center;
+  border-top: 1px solid #111;
+  color: #666;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0.8;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0.8;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    padding: 20px;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  nav {
+    gap: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .hero h1 {
+    font-size: 34px;
+  }
+
+  .section {
+    padding: 100px 7%;
+  }
+}
